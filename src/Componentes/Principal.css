@@ -1,0 +1,15 @@
+.input-file{
+  background-color: #c5c5c544;
+  margin-top: 5rem;
+  max-width: 1400px;
+  padding: 4rem;
+  margin: 4rem auto;
+  display: flex;
+  border: 3px dashed #333;
+  justify-content: center;
+}
+
+
+.input-file input{
+  margin-left: 1rem;
+}

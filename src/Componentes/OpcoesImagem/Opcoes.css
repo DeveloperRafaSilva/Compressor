@@ -1,0 +1,29 @@
+.formulario-opcoes{
+  background-color: #fff;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border: 1px solid #c5c5c5;
+}
+
+.titulo{
+  padding: 1rem .6rem;
+  background-color: #f7f7f7;
+}
+
+.opcoes-input-item{
+  padding: 1rem .6rem;
+}
+
+.Grid-processamento{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 500px auto ;
+}
+
+@media(max-width:940px){
+  .Grid-processamento{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns:  auto;
+  }
+}

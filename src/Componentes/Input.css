@@ -1,0 +1,26 @@
+.input-item input{
+  padding: .4rem 1rem;
+}
+
+.input-item{
+  display: grid;
+  align-items: center;
+  gap: 1rem;
+  grid-template-columns: 1fr auto;
+}
+@media(max-width:940px){
+  .input-item{
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: 150px auto;
+  } 
+}
+@media(max-width:450px){
+  .input-item{
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: 100px auto;
+  } 
+}
